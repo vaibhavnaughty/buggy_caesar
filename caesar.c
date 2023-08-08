@@ -2,10 +2,10 @@
 #include <ctype.h>
 #include <stdlib.h>
 #include <string.h>
-char s[50];
+char s[50]; //declared as global var
 int main(int argc , char* argv[])
 {
-    // Check the CLarg
+    // Check the CLarg (command line arguement)
     if (argc == 2 && isdigit(*argv[1]))
     {
         //int j = atoi(argv[1]); // convert keyvalue to int
